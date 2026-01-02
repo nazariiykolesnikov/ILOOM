@@ -1,0 +1,101 @@
+
+.subscribing__container {
+    background: transparent;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 120px;
+}
+
+.subscribing__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 190px;
+    max-width: 2000px;
+    width: 100%;
+    gap: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.subscribing {
+    display: flex;
+    flex-direction: row;
+}
+
+.subscribing__header--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 124px;
+}
+
+.subscribing__header {
+    font-size: 24px;
+    font-weight: 700 !important;
+    color: #212429;
+    margin-bottom: -10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.subscribing__text {
+    color: #212429;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.subscribing__header {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.subscribing__form--container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 275px;
+}
+
+.subscribing__form--email-input {
+    width: 384px;
+    height: 48px;
+    border-radius: 48px;
+    border: 1px solid #B6B6B6;
+    letter-spacing: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.subscribing__form--email-input::placeholder {
+    font-size: 16px;
+    color: #212429;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.subscribing__form--submit-button {
+    background: #FC8BD1;
+    color: #ffffff;
+    width: 178px;
+    height: 48px;
+    border: none;
+    font-size: 16px;
+    margin-left: 35px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0;
+    border-radius: 48px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+}
+
+.subscribing__form--submit-button:hover {
+    opacity: 0.7;
+}

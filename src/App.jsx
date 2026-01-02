@@ -1,0 +1,36 @@
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import './App.css';
+import Main from "./pages/Main/Main.jsx";
+import AccountControl from "./pages/AccountControl/AccountControl.jsx";
+import Checkout from "./pages/Checkout/Checkout.jsx";
+import FavoriteProducts from "./pages/FavoriteProducts/FavoriteProducts.jsx";
+import Payment from "./pages/Payment/Payment.jsx";
+import PopUpProductPreview from "./pages/PopUpProductPreview/PopUpProductPreview.jsx";
+import ProductPage from "./pages/ProductPage/ProductPage.jsx";
+import Cart from "./pages/Cart/Cart.jsx";
+import Sales from "./pages/Sales/Sales.jsx";
+import SearchResults from "./pages/SearchResults/SearchResults.jsx";
+
+const App = () => {
+    return (
+        <>
+            <Router>
+                <Routes>
+                    <Route path="/product-page" element={<ProductPage/>} />
+                    <Route path="/pop-up-product-preview" element={<PopUpProductPreview/>} />
+                    <Route path="/payment" element={<Payment/>} />
+                    <Route path="/cart" element={<Cart/>} />
+                    <Route path="/main" element={<Main/>} />
+                    <Route path="/search" element={<SearchResults />} />
+                    <Route path="/favorite-products" element={<FavoriteProducts/>} />
+                    <Route path="/checkout" element={<Checkout/>} />
+                    <Route path="/account-control" element={<AccountControl />} />
+                    <Route path="/" element={<Sales />} />
+                    <Route path="*" element={<Sales />} />
+                </Routes>
+            </Router>
+        </>
+    )
+}
+
+export default App;

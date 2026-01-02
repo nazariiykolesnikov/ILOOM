@@ -1,0 +1,62 @@
+.i-loom-style-instagram__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.i-loom-style-instagram__wrapper {
+    margin-top: -50px;
+    margin-left: 120px;
+}
+
+.i-loom-style-instagram__heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.i-loom-style-instagram__heading__iloomstyle {
+    color: #212429;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 32px;
+    letter-spacing: 0;
+}
+
+.i-loom-style-instagram__heading__instagram {
+    color: #FC8BD1;
+    font-size: 32px;
+    font-weight: 800;
+    opacity: .5;
+    line-height: 120%;
+    margin-bottom: 32px;
+    letter-spacing: 0;
+}
+
+.i-loom-style-instagram__image_cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.instagram-grid__cards__wrapper {
+    border-radius: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden;
+}
+
+.instagram-grid__cards__card {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    transition: transform 300ms;
+}
+
+.instagram-grid__cards__card:hover {
+    transform: scale(1.05);
+}
+
