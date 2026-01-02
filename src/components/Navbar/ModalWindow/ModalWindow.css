@@ -6,6 +6,11 @@
     left: 314px;
 }
 
+.google-login img {
+    width: 55px !important;
+    height: 55px !important;
+}
+
 .google-login__icon {
     width: 55px !important;
     height: 55px !important;
